@@ -1,6 +1,3 @@
-provider "azurerm" {
-  features {}
-}
 
 module "network" {
   source              = "Azure/network/azurerm"
